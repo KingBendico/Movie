@@ -78,7 +78,7 @@ public class MovieFacadeTest {
 
     @Test
     public void testGetMovieById(){
-        //Todo
+        
     }
     
      @Test
@@ -92,7 +92,7 @@ public class MovieFacadeTest {
         List<MovieDTO> m = facade.getMoviesByTitle("Once Upon a Time... in Hollywood");
         m.forEach((e) -> { assertEquals("Once Upon a Time... in Hollywood", e.getTitle(),"Expects three movies in the database");});
 
-        //Todo
+    
     }
     
     
